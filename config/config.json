@@ -1,20 +1,20 @@
 {
   "development": {
-    "username": "root",
+    "username": "sql6460123",
     "password": "puisthebest",
     "database": "database_development",
     "host": "sql6.freemysqlhosting.net",
     "dialect": "mysql"
   },
   "test": {
-    "username": "root",
+    "username": "sql6460123",
     "password": "puisthebest",
     "database": "database_test",
     "host": "sql6.freemysqlhosting.net",
     "dialect": "mysql"
   },
   "production": {
-    "username": "root",
+    "username": "sql6460123",
     "password": "puisthebest",
     "database": "sql6.freemysqlhosting.net",
     "host": "127.0.0.1",
