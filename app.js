@@ -129,7 +129,7 @@ const connectAuth = () =>{
     })
 }
 
-app.listen((process.env.PORT || 3000), ()=>{
+app.listen((process.env.PORT || 3000), ()=>{ // jangan di hardcode port nya nanti malah gabisa
     console.log(`listening at http://localhost: ${3000}`)
     connectAuth()
 })
