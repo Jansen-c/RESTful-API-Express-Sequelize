@@ -3,6 +3,8 @@ const express = require("express")
 const {sequelize, hewan} = require('./models')
 const HEWAN_MODEL = require('./models').hewan
 
+const port = process.env.PORT || 3000
+
 const app = express();
 app.use(express.json())
 
@@ -120,7 +122,7 @@ const connectAuth = () =>{
     })
 }
 
-app.listen(3000, ()=>{
-    console.log(`listening at http://localhost: 3000`)
+app.listen(port, ()=>{
+    console.log(`listening at http://localhost: ${port}`)
     connectAuth()
 })
