@@ -8,15 +8,15 @@
   },
   "test": {
     "username": "sql6460123",
-    "password": "puisthebest",
-    "database": "database_test",
+    "password": "MKR2MiT6l7",
+    "database": "sql6460123",
     "host": "sql6.freemysqlhosting.net",
     "dialect": "mysql"
   },
   "production": {
     "username": "sql6460123",
     "password": "MKR2MiT6l7",
-    "database": "database_production",
+    "database": "sql6460123",
     "host": "sql6.freemysqlhosting.net",
     "dialect": "mysql"
   }
