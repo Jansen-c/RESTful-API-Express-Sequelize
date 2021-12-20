@@ -1,0 +1,31 @@
+{
+  "devDependencies": {
+    "sequelize-cli": "^6.3.0"
+  },
+  "dependencies": {
+    "express": "^4.17.2",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.15",
+    "sequelize": "^6.12.0"
+  },
+  "name": "restful-api-express-sequelize",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jansen-c/RESTful-API-Express-Sequelize.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jansen-c/RESTful-API-Express-Sequelize/issues"
+  },
+  "homepage": "https://github.com/Jansen-c/RESTful-API-Express-Sequelize#readme",
+  "keywords": []
+}
