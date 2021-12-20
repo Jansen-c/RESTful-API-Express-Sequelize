@@ -4,9 +4,11 @@
   },
   "dependencies": {
     "express": "^4.17.2",
+    "heroku": "^7.59.2",
     "mysql": "^2.18.1",
     "mysql2": "^2.3.3",
     "nodemon": "^2.0.15",
+    "pm2": "^5.1.2",
     "sequelize": "^6.12.0"
   },
   "name": "restful-api-express-sequelize",
@@ -15,7 +17,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start" : "nodemon app.js"
+    "start": "pm2 start app.js",
+    "stop": "pm2 stop app.js"
   },
   "repository": {
     "type": "git",
