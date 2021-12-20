@@ -15,7 +15,7 @@
   },
   "production": {
     "username": "sql6460123",
-    "password": "puisthebest",
+    "password": "MKR2MiT6l7",
     "database": "database_production",
     "host": "sql6.freemysqlhosting.net",
     "dialect": "mysql"
