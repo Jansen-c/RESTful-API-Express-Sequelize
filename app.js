@@ -3,7 +3,7 @@ const express = require("express")
 const {sequelize, hewan} = require('./models')
 const HEWAN_MODEL = require('./models').hewan
 
-const app = express()
+const app = express();
 app.use(express.json())
 
 app.get("/hewan", async (req, res) => {
