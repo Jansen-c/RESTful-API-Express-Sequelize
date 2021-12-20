@@ -3,9 +3,6 @@ const express = require("express")
 const {sequelize, hewan} = require('./models')
 const HEWAN_MODEL = require('./models').hewan
 
-const port = process.env.PORT || 3000
-
-
 const app = express();
 app.use(express.json())
 
